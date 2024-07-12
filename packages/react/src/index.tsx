@@ -1,5 +1,4 @@
 /* eslint-disable prettier/prettier */
-import React = require('react')
 import { styled } from './styles'
 
 const Button = styled('button', {
@@ -9,5 +8,5 @@ const Button = styled('button', {
 	padding: '$4',
 })
 export function App() {
-	return <Button>Hello World</Button>
+	return <Button>Hello World </Button>
 }
