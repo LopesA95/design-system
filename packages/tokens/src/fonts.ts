@@ -1,4 +1,4 @@
 export const fonts = {
-  default: 'Roboot, sans-serif',
+  default: 'Roboto, sans-serif',
   code: 'monospace',
 }

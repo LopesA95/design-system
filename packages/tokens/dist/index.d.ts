@@ -13,15 +13,7 @@ declare const colors: {
     ignite500: string;
     ignite700: string;
     ignite900: string;
-};
-
-declare const radii: {
-    px: string;
-    xs: string;
-    sm: string;
-    md: string;
-    lg: string;
-    full: string;
+    test: string;
 };
 
 declare const space: {
@@ -42,6 +34,20 @@ declare const space: {
     80: string;
 };
 
+declare const radii: {
+    px: string;
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    full: string;
+};
+
+declare const fonts: {
+    default: string;
+    code: string;
+};
+
 declare const fontSizes: {
     xxs: string;
     xs: string;
@@ -59,18 +65,13 @@ declare const fontSizes: {
 };
 
 declare const fontWeights: {
-    regular: number;
-    medium: number;
-    bold: number;
-};
-
-declare const fonts: {
-    default: string;
-    code: string;
+    regular: string;
+    medium: string;
+    bold: string;
 };
 
 declare const lineHeights: {
-    shorther: string;
+    shorter: string;
     short: string;
     base: string;
     tall: string;

@@ -45,17 +45,8 @@ var colors = {
   ignite300: "#00B37E",
   ignite500: "#00875F",
   ignite700: "#015F43",
-  ignite900: "#00291D"
-};
-
-// src/radii.ts
-var radii = {
-  px: "1px",
-  xs: "4px",
-  sm: "6px",
-  md: "8px",
-  lg: "16px",
-  full: "99999px"
+  ignite900: "#00291D",
+  test: "#fff"
 };
 
 // src/space.ts
@@ -77,6 +68,22 @@ var space = {
   80: "20rem"
 };
 
+// src/radii.ts
+var radii = {
+  px: "1px",
+  xs: "4px",
+  sm: "6px",
+  md: "8px",
+  lg: "16px",
+  full: "99999px"
+};
+
+// src/fonts.ts
+var fonts = {
+  default: "Roboto, sans-serif",
+  code: "monospace"
+};
+
 // src/font-sizes.ts
 var fontSizes = {
   xxs: "0.625rem",
@@ -96,20 +103,14 @@ var fontSizes = {
 
 // src/font-weights.ts
 var fontWeights = {
-  regular: 400,
-  medium: 500,
-  bold: 700
-};
-
-// src/fonts.ts
-var fonts = {
-  default: "Roboot, sans-serif",
-  code: "monospace"
+  regular: "400",
+  medium: "500",
+  bold: "700"
 };
 
 // src/line-heights.ts
 var lineHeights = {
-  shorther: "125%",
+  shorter: "125%",
   short: "140%",
   base: "160%",
   tall: "180%"
