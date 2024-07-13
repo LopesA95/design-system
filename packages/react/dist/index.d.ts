@@ -1468,8 +1468,7 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
     transition: "transitions";
     zIndex: "zIndices";
 }, {}>>;
-interface TextAreaProps extends ComponentProps<typeof TextArea> {
-}
+type TextAreaProps = ComponentProps<typeof TextArea>;
 
 declare const CheckboxContainer: _stitches_react_types_styled_component.StyledComponent<react.ForwardRefExoticComponent<Checkbox$1.CheckboxProps & react.RefAttributes<HTMLButtonElement>>, {}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
